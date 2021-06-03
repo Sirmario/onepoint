@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Onepoint Business platform</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;1,100;1,700&display=swap" rel="stylesheet">
+  <!-- Fontawesome for Icons -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <style>
+    *{
+      /* border:1px solid black; */
+      box-sizing: border-box;
+      margin:0;
+      padding:0;
+      text-decoration: none;
+
+    }
+    nav{
+      height: 80px;
+      padding:0 10%;
+      background-color:tomato;
+    }
+    .brand{
+      line-height: 80px;
+      font-size: 30px;
+    }
+    .brand:hover{color:white;}
+    ul{
+      float:right;
+      line-height: 80px;
+      list-style-type: none;
+    }
+    li{
+      float:left;
+      margin-left:50px;
+    }
+    .navbar-item{
+      text-decoration: none;
+      color:white;
+      text-transform: uppercase;
+      padding:100% 20px;
+    }
+    .navbar-item:hover{
+      color:blue;
+    }
+    .active{
+      background: white;
+      color:tomato;
+    }
+    #checkbox{display:none;}
+    .hamburger{
+      float:right;
+      line-height: 80px;
+      font-size: 30px;
+      display:none;
+    }
+    @media screen and (max-width:966px){
+      li{
+        margin-left:30px;
+      }
+      .navbar-item{font-size:11px;}
+
+    @media screen and (max-width:750px){
+      /* .active{background-} */
+    }
+      ul{
+        background-color:tomato;
+        width:100%;
+        margin:0;
+        position:fixed;
+        /* display:none; */
+      }
+      li{
+        display: block;
+         margin:0;
+         text-align: center;
+        width:100%;
+      }
+      .navbar-item{
+        display: block;
+         }
+      .hamburger{
+        /* display: block; */
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#" class="brand">onpoint</a>
+    <input type="checkbox" id="checkbox">
+    <label for="checkbox" class="hamburger"><i class="fas fa-bars"></i></label>
+    <ul>
+      <li><a href="#" class="navbar-item active">Home</a></li>
+      <li><a href="#" class="navbar-item">About</a></li>
+      <li><a href="#" class="navbar-item">contact</a></li>
+      <li><a href="#" class="navbar-item">NEWS</a></li>
+    </ul>
+
+  </nav>
+
+</body>
+</html>
