@@ -140,6 +140,7 @@
   }
   .product-list .item{
     margin:0 auto 4%;
+    width:100%;
     float: none;
   }
   /* Aside Section */
