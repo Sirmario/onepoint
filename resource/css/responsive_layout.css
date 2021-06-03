@@ -140,7 +140,7 @@
   }
   .product-list .item{
     margin:0 auto 4%;
-    width:100%;
+    width:80%;
     float: none;
   }
   /* Aside Section */
@@ -154,7 +154,7 @@
     float:none;
   }
   .aside-item.text-section{
-    height: 300px;
+    height: 330px;
   }
   .aside-item h1{
     font-size:2rem;
@@ -167,7 +167,7 @@
     height: 1500px;
   }
   .card-item{
-    width:70%;
+    width:90%;
     margin:30px auto;
     float:none;
   }
