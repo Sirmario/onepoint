@@ -43,6 +43,7 @@
     display:none;
     transition: all .5s;
     background: #cadeda;
+    line-height:0;
   }
   .navbar-link{
     display:block;
